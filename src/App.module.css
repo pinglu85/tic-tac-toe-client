@@ -2,7 +2,7 @@
 
 
 .App {
-  max-width: 600px;
+  max-width: 500px;
   margin: 50px auto;
   background-color: #fff;
   border-radius: 8px;
@@ -10,13 +10,12 @@
 
 .App header {
   width: 100%;
-  padding: 16px;
+  padding: 24px;
   text-align: center;
   font-size: 1.333rem;
   font-weight: 500;
-  background-color: var(--blue);
   border-radius: 8px 8px 0 0;
-  color: #fff;
+  color: var(--primary);
 }
 
 .App form {
@@ -29,6 +28,7 @@
   display: block;
   width: 100%;
   margin-top: 8px;
+  margin-bottom: 24px;
   padding: 8px;
   border: 1px solid var(--grey);
   border-radius: 8px;

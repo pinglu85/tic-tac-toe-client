@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 import styles from './App.module.css';
+import Button from './components/UI/Button/Button';
 
 function App() {
   const ref = useRef(null);
@@ -25,7 +26,7 @@ function App() {
               value=""
             />
           </label>
-          <button>Join</button>
+          <Button>Join</Button>
         </form>
       </div>
     </Router>
