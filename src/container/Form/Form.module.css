@@ -1,14 +1,14 @@
-@import "./index.css";
+@import "../../index.css";
 
 
-.App {
+.Form {
   max-width: 500px;
   margin: 50px auto;
   background-color: #fff;
   border-radius: 8px;
 }
 
-.App header {
+.Form header {
   width: 100%;
   padding: 24px;
   text-align: center;
@@ -18,13 +18,13 @@
   color: var(--primary);
 }
 
-.App form {
+.Form form {
   display: flex;
   flex-direction: column;
   padding: 40px 48px;
 }
 
-.App input {
+.Form input {
   display: block;
   width: 100%;
   margin-top: 8px;
@@ -34,7 +34,7 @@
   border-radius: 8px;
 }
 
-.App input:focus {
+.Form input:focus {
   border: 2px solid var(--primary);
   outline: none;
 }
