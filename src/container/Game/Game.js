@@ -1,7 +1,13 @@
 import React from 'react';
 
+import Board from '../../components/UI/Board/Board';
+
 const Game = () => {
-  return <div>Hello from Game</div>;
+  return (
+    <div>
+      <Board />
+    </div>
+  );
 };
 
 export default Game;
