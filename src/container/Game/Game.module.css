@@ -1,0 +1,27 @@
+@import '../../index.css';
+
+.Game {
+  background-color: var(--light-blue);
+  width: 100%;
+  height: 100vh;
+}
+
+.GameInnerWrapper {
+  width: 80vw;
+  margin: auto;
+}
+
+.BoardWrapper {
+  padding: 24px;
+  /* Neumorphism */
+  border-radius: 16px;
+  background: #d3deff;
+  box-shadow: inset 10px 10px 20px #b3bdd9,
+    inset -10px -10px 20px #f3ffff;
+}
+
+@media (min-width: 1025px) {
+  .GameInnerWrapper {
+    width: 30vw;
+  }
+}
