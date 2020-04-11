@@ -1,8 +1,14 @@
 .Board {
   display: grid;
-  grid-template-columns: repeat(3, min-content);
-  grid-template-rows: repeat(3, auto);
-  width: fit-content;
-  grid-gap: 5px;
-  margin: auto;
+  grid-template-columns: repeat(3, calc((100% - 8px) / 3));
+  grid-template-rows: repeat(3, calc((100% - 8px) / 3));
+  width: 100%;
+  height: calc(80vw - 32px);
+  grid-gap: 8px;
+}
+
+@media (min-width: 1025px) {
+  .Board {
+    height: calc(30vw - 32px);
+  }
 }
